@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* select all elements */
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bc: rgb(220, 220, 220);
+}
+
+.list{
+    list-style: none;
+    /* background-color: brown; */
+    width: 200px;
+    border: 1px solid var(--bc);
+    border-radius: 7px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+}
+
+.list-item{
+    /* background-color: greenyellow; */
+    border-bottom: 1px solid var(--bc);
+    padding: 10px;
+    width: 100%;
+}
+
+.list-item:hover{
+    background-color: rgba(214, 214, 214, 0.434);
+}
+
+.list-item:last-child{
+    border-bottom: none;
+}
+
+.list-item p{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.list-item .position{
+    color: gray;
+    font-size: 13px;
+}
+
+.list-item img{
+    vertical-align:top;
+    margin-right: 8px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid lightgray;
+}
+
+.nav{
+    list-style-type: none;
+    background-color: black;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background-color: rgb(57, 57, 57);
+}
+
+.nav-link:focus{
+    background-color: red;
+}
+

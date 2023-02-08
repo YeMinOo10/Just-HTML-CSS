@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+/* new pseudo */
+:root{
+    --normal-height : 40px;
+    --normal-fs : 13px;
+} 
+
+.btn{
+    display: inline-block;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--normal-fs);
+    height: var(--normal-height);
+    padding: 0px 30px;
+    line-height: var(--normal-height);
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 5px;
+}
+
+body{
+    background-color: rgb(101, 101, 101);
+}
+
+.btn-white{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #000000;
+}
+
+.btn-dark{
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.btn-green{
+    background-color: #64B6AC;
+    border: 2px solid #64B6AC;
+}
+
+.btn-yellow{
+    background-color: #FFBE0B;
+    border: 2px solid #FFBE0B;
+    border-radius: 5px;
+}
+
+.btn-red{
+    background-color: #E63946;
+    border: 2px solid #E63946;
+}
+
+.btn-blue{
+    background-color: #1D3557;
+    border: 2px solid  #1D3557;
+    border-radius: 5px;
+}
+
+.btn-outline-white{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-dark{
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.btn-outline-green{
+    background-color: transparent;
+    border: 2px solid #9e7b24;
+    color: #ffbf1f;
+}
+
+.btn-outline-yellow{
+    background-color: transparent;
+    border: 2px solid #90E0EF;
+    color: #90E0EF;
+    border-radius: 5px;
+}
+
+.btn-outline-red{
+    background-color: transparent;
+    border: 2px solid #FFB627;
+    color: #FFB627;
+}
+
+.btn-outline-blue{
+    background-color: transparent;
+    border: 2px solid  #1D3557;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn-white-rounded{
+    background-color: #FEFAE0;
+    border: 2px solid #FEFAE0;
+    color: #000000;
+}
+
+.btn-green-rounded{
+    background-color: #446e69;
+    border: 2px solid #64B6AC;
+}
+
+.btn-red-rounded{
+    background-color: #a13c44;
+    border: 2px solid #E63946;
+}
+
+.btn-outline-white-rounded{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #aeaeae;
+}
+
+.btn-outline-green-rounded{
+    background-color: transparent;
+    border: 2px solid #A3B18A;
+    color: #A3B18A;
+}
+
+.btn-outline-red-rounded{
+    background-color: transparent;
+    border: 2px solid #E5989B;
+    color: #E5989B;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+.btn-icon{
+    width: 40px;
+    padding: 0px;
+    text-align: center;
+}
+

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+}
+
+.mag-20{
+    margin: 35px;
+}
+
+.mag-bot{
+    margin-bottom: 20px;
+}
+.card{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* transform */
+.card:hover .card-icon{
+    transform: scale(1.5);
+}
+
+/* transition */
+.card-icon{
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.card-body{
+    padding: 20px
+}
+
+.card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+
+.card-img-bottom{
+    border-radius: 0 0 15px 15px;
+}
+
+.btn{
+    display: inline-block;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px; 
+}
+
+.btn-like{
+    display: inline-block;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px; 
+}
+
+.btn-outer{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px; 
+    margin: 0 auto;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+/* position */
+.btn-middle{
+    display: block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 0 10px; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 168, 183);
+    margin-right: 20px;
+    margin-top: -20px;
+    position: relative;
+    float: right;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.txt-shw{
+    box-shadow: 0 0 20px rgb(74, 74, 74);
+}
